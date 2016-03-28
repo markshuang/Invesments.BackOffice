@@ -13,7 +13,7 @@ var StaticComponent = (function () {
     function StaticComponent() {
     }
     StaticComponent.prototype.ngOnInit = function () {
-        this.message = "The 'static.html' was used as the Angular2 'templateUrl'. There is a 'message' property bound to the <blockqoute> element.";
+        this.message = "The 'static.html' was used as the A2 'templateUrl'. There is a 'message' property bound to the <blockqoute> element.";
     };
     StaticComponent = __decorate([
         core_1.Component({

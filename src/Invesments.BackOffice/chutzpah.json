@@ -5,6 +5,7 @@
     "Extensions": [ ".ts" ],
     "ExtensionsWithNoOutput": [ ".d.ts" ]
   },
+  "RootReferencePathMode": "SettingsFileDirectory",
   "EnableTracing": true,
   "References": [
     {
@@ -21,18 +22,7 @@
     { "Path": "scriptsTest" },
     {
 
-      "Includes": [ "scriptsTest/personTest.ts" ]
-    },
-    
-    {
-
-      "Excludes": [
-        "node_modules",
-        "typings",
-        "wwwroot",
-        "scripts",
-        "ScriptsTest/*.d.ts"
-      ]
+      "Includes": [ "scriptsTest/*.ts" ]
     }
   ]
 }

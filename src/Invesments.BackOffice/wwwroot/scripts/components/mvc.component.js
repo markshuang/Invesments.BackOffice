@@ -13,7 +13,7 @@ var MvcComponent = (function () {
     function MvcComponent() {
     }
     MvcComponent.prototype.ngOnInit = function () {
-        this.message = "The '/partial/message' path was used as the Angular2 'templateUrl'. However, this routes through the 'PartialController' hitting the 'Message' action and is served after standard MVC pre-processing. Likewise, there is a 'message' property bound to the <blockqoute> element.";
+        this.message = "The '/partial/message' path was used as 'templateUrl'. However, this routes through the 'PartialController' hitting the 'Message' action and is served after standard MVC pre-processing. Likewise, there is a 'message' property bound to the <blockqoute> element.";
     };
     MvcComponent = __decorate([
         core_1.Component({
