@@ -1,0 +1,38 @@
+{
+  "Framework": "jasmine",
+  "Compile": {
+    "Mode": "External",
+    "Extensions": [ ".ts" ],
+    "ExtensionsWithNoOutput": [ ".d.ts" ]
+  },
+  "EnableTracing": true,
+  "References": [
+    {
+      "Includes": [
+
+        "*/Scripts/*.ts",
+        "*/typings/main.d.ts"
+
+      ],
+      "Excludes": [ "*/Scripts/*.d.ts" ]
+    }
+  ],
+  "Tests": [
+    { "Path": "scriptsTest" },
+    {
+
+      "Includes": [ "scriptsTest/personTest.ts" ]
+    },
+    
+    {
+
+      "Excludes": [
+        "node_modules",
+        "typings",
+        "wwwroot",
+        "scripts",
+        "ScriptsTest/*.d.ts"
+      ]
+    }
+  ]
+}
