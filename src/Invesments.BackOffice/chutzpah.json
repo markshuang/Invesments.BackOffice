@@ -30,6 +30,7 @@
         "node_modules",
         "typings",
         "wwwroot",
+        "wwwroot/scripts",
         "scripts",
         "ScriptsTest/*.d.ts"
       ]
